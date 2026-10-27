@@ -72,6 +72,7 @@ namespace Blocks.Gameplay.Shooter
         [SerializeField, Min(.1f)] private float cassidyRollDistance = 5f;
 
         private const float CassidyRollDuration = .72f;
+        private const float CassidyRollStaminaCost = 50f;
         private readonly NetworkVariable<double> m_CassidyRollStart = new NetworkVariable<double>(-100, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
         private readonly NetworkVariable<Vector3> m_CassidyRollDirection = new NetworkVariable<Vector3>(Vector3.forward, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
 
@@ -113,9 +114,10 @@ namespace Blocks.Gameplay.Shooter
         }
         public bool TryCassidyRoll()
         {
-            if(!CanUseRevolver || m_CassidyMotor==null || !m_CassidyMotor.IsMovementEnabled || !m_CassidyMotor.IsGrounded ||
+            if(!CanUseRevolver || CassidyRolling || m_CassidyMotor==null || !m_CassidyMotor.IsMovementEnabled || !m_CassidyMotor.IsGrounded ||
                 DeadeyeActive || RevolverReloading || m_RevolverFanning || Time.time<m_RevolverNextShot ||
                 (ShooterEscortMatch.Instance!=null && !ShooterEscortMatch.Instance.CombatAllowed))return false;
+            if(!coreStats.TryConsumeStat(StatKeys.Stamina,CassidyRollStaminaCost,OwnerClientId))return false;
             var view=Camera.main!=null?Camera.main.transform:transform;
             var forward=Vector3.ProjectOnPlane(view.forward,Vector3.up).normalized;
             if(forward.sqrMagnitude<.1f)forward=transform.forward;

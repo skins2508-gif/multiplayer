@@ -70,6 +70,7 @@ namespace Blocks.Gameplay.Shooter
             }
 
             if (m_WeaponController != null && m_WeaponController.DvaEjectInvulnerable) return;
+            if (m_WeaponController != null && m_WeaponController.CassidyRolling) return;
 
             float finalDamage = CalculateDamage(info);
             if (m_WeaponController != null && m_WeaponController.TryEmergencyDvaEject(finalDamage)) return;
