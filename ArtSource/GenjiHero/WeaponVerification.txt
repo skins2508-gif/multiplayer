@@ -1,0 +1,8 @@
+Shuriken parent scale=0.01, world size=0.1050m: PASS
+Katana parent scale=0.01, world size=1.0800m: PASS
+Shuriken parent scale=1, world size=0.1050m: PASS
+Katana parent scale=1, world size=1.0800m: PASS
+Shuriken parent scale=100, world size=0.1050m: PASS
+Katana parent scale=100, world size=1.0800m: PASS
+Awakened dash cooldown=0.3s; dash damage=10: PASS
+Genji hero resource available for player and AI: PASS

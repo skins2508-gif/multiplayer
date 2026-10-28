@@ -1,0 +1,6 @@
+Local host starts: PASS
+New Genji body active on spawned player: PASS
+Runtime humanoid valid: PASS
+Original player body hidden: PASS
+Runtime skin finite and stable: PASS
+Stage: 3

@@ -1,0 +1,9 @@
+PASS: 겐지 검격 | Assets/VFXForge/Generated/Genji Blade Combo 1/Genji Blade Combo.prefab
+PASS: 디바 자폭 | Assets/VFXForge/Generated/Dva Self Destruct 1/Dva Self Destruct.prefab
+PASS: 윈스턴 폭주 | Assets/VFXForge/Generated/Winston Primal Rage 1/Winston Primal Rage.prefab
+PASS: 캐서디 연사 | Assets/VFXForge/Generated/Cassidy Rapid Fire 1/Cassidy Rapid Fire.prefab
+PASS: 텔레포트 소환 | Assets/VFXForge/Generated/Hero Teleport Summon 1/Hero Teleport Summon.prefab
+PASS: 메르시 치유 | Assets/VFXForge/Generated/Mercy Healing Aura 1/Mercy Healing Aura.prefab
+PASS: 겐지 대시 | Assets/VFXForge/Generated/Genji Swift Dash 1/Genji Swift Dash.prefab
+PASS: 디바 재탑승 | Assets/VFXForge/Generated/Dva Mech Recall 1/Dva Mech Recall.prefab
+PASS: eight hero effects saved and previewed with deterministic time scrubbing.

@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67fdee4d5be262744868b31f9748b66a, type: 3}
+  m_Name: Recipe
+  m_EditorClassIdentifier: Assembly-CSharp::VFXForge.ForgeRecipe
+  effectName: Healing Aura
+  duration: 2.5
+  loop: 0
+  size: 1
+  brightness: 2
+  seed: 1729
+  layers:
+  - name: Ground glow
+    enabled: 1
+    shape: 2
+    color: {r: 1, g: 0.65, b: 0.08, a: 1}
+    texture: {fileID: 2800000, guid: 493d96c7a1be88248b8ccc2ca0342f36, type: 3}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: 3
+    delay: 0
+    duration: 2.5
+    count: 1
+    speed: 0
+    particleSize: 1
+  - name: Halo
+    enabled: 1
+    shape: 3
+    color: {r: 1, g: 0.65, b: 0.08, a: 1}
+    texture: {fileID: 0}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: 1.8
+    delay: 0
+    duration: 2.5
+    count: 1
+    speed: 0
+    particleSize: 1
+  - name: Floating motes
+    enabled: 1
+    shape: 0
+    color: {r: 1, g: 0.65, b: 0.08, a: 1}
+    texture: {fileID: 2800000, guid: 71e089243b1a20e4f96f47badc0e4de2, type: 3}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: 1
+    delay: 0
+    duration: 2.4
+    count: 90
+    speed: 0.7
+    particleSize: 0.09
+  - name: "Free Quick Effects \u2022 vfx_Heal_01"
+    enabled: 1
+    shape: 5
+    color: {r: 1, g: 0.65, b: 0.08, a: 1}
+    texture: {fileID: 0}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 339158821923109191, guid: 108ca465382c11742bd2c91fe4fdb13f, type: 3}
+    replaceSourceMaterials: 1
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: 1
+    delay: 0
+    duration: 2.5
+    count: 32
+    speed: 3
+    particleSize: 0.12

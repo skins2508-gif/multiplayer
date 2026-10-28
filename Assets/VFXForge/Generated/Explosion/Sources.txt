@@ -1,0 +1,2 @@
+Sources remain unchanged. Original asset licenses apply. Procedural Forge textures and shaders are generated locally.
+Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Explosion_01.prefab

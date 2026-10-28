@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67fdee4d5be262744868b31f9748b66a, type: 3}
+  m_Name: Recipe
+  m_EditorClassIdentifier: Assembly-CSharp::VFXForge.ForgeRecipe
+  effectName: Dva Self Destruct
+  duration: 4.5
+  loop: 0
+  size: 1
+  brightness: 2
+  seed: 1729
+  layers:
+  - name: Warning pulse 0
+    enabled: 1
+    shape: 3
+    color: {r: 1, g: 0.1, b: 0.48, a: 1}
+    texture: {fileID: 0}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 90, y: 0, z: 0}
+    scale: 1
+    delay: 0
+    duration: 0.42
+    count: 1
+    speed: 0
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 0.1
+  - name: Warning pulse 1
+    enabled: 1
+    shape: 3
+    color: {r: 1, g: 0.1, b: 0.48, a: 1}
+    texture: {fileID: 0}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 90, y: 0, z: 0}
+    scale: 1.35
+    delay: 0.55
+    duration: 0.42
+    count: 1
+    speed: 0
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 0.1
+  - name: Warning pulse 2
+    enabled: 1
+    shape: 3
+    color: {r: 1, g: 0.1, b: 0.48, a: 1}
+    texture: {fileID: 0}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 90, y: 0, z: 0}
+    scale: 1.7
+    delay: 1.1
+    duration: 0.42
+    count: 1
+    speed: 0
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 0.1
+  - name: Detonation flash
+    enabled: 1
+    shape: 2
+    color: {r: 1, g: 0.87, b: 0.5, a: 1}
+    texture: {fileID: 2800000, guid: 493d96c7a1be88248b8ccc2ca0342f36, type: 3}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 90, y: 0, z: 0}
+    scale: 9
+    delay: 1.8
+    duration: 0.25
+    count: 1
+    speed: 0
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 0.1
+  - name: Main shockwave
+    enabled: 1
+    shape: 3
+    color: {r: 1, g: 0.62, b: 0.05, a: 1}
+    texture: {fileID: 0}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: 5
+    delay: 1.8
+    duration: 1.2
+    count: 1
+    speed: 0
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 0.1
+  - name: Pink outer shockwave
+    enabled: 1
+    shape: 3
+    color: {r: 1, g: 0.1, b: 0.48, a: 1}
+    texture: {fileID: 0}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 15, y: 0, z: 0}
+    scale: 4.5
+    delay: 1.9
+    duration: 1.4
+    count: 1
+    speed: 0
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 0.1
+  - name: Flying embers
+    enabled: 1
+    shape: 0
+    color: {r: 1, g: 0.62, b: 0.05, a: 1}
+    texture: {fileID: 2800000, guid: 6253e386f356d064cad3c8845be7e2cb, type: 3}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: 1
+    delay: 1.8
+    duration: 1.8
+    count: 260
+    speed: 13
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 0.16
+  - name: Blast smoke
+    enabled: 1
+    shape: 1
+    color: {r: 0.4, g: 0.32, b: 0.4, a: 0.7}
+    texture: {fileID: 2800000, guid: 0c451343dc40f5e4fb15148dcfe7ecb4, type: 3}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: 1
+    delay: 1.9
+    duration: 2.5
+    count: 70
+    speed: 3
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 2.2
+  - name: "Free VFX \u2022 vfx_Explosion_02"
+    enabled: 1
+    shape: 5
+    color: {r: 1, g: 0.1, b: 0.48, a: 1}
+    texture: {fileID: 0}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 8464950693656172981, guid: 83ad694f134ab954580473212156b35a, type: 3}
+    replaceSourceMaterials: 1
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: 2
+    delay: 1.8
+    duration: 2.7
+    count: 32
+    speed: 3
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 0.12

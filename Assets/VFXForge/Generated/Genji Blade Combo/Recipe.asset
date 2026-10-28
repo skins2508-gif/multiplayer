@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67fdee4d5be262744868b31f9748b66a, type: 3}
+  m_Name: Recipe
+  m_EditorClassIdentifier: Assembly-CSharp::VFXForge.ForgeRecipe
+  effectName: Genji Blade Combo
+  duration: 1.2
+  loop: 0
+  size: 1
+  brightness: 2
+  seed: 1729
+  layers:
+  - name: First diagonal blade
+    enabled: 1
+    shape: 4
+    color: {r: 0.15, g: 1, b: 0.06, a: 1}
+    texture: {fileID: 0}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 35, y: 0, z: 35}
+    scale: 1.1
+    delay: 0
+    duration: 0.24
+    count: 1
+    speed: 0
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 0.1
+  - name: Second reverse blade
+    enabled: 1
+    shape: 4
+    color: {r: 0.15, g: 1, b: 0.06, a: 1}
+    texture: {fileID: 0}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: -25, y: 180, z: -40}
+    scale: 1.3
+    delay: 0.28
+    duration: 0.26
+    count: 1
+    speed: 0
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 0.1
+  - name: Blade impact star
+    enabled: 1
+    shape: 2
+    color: {r: 0.15, g: 1, b: 0.06, a: 1}
+    texture: {fileID: 2800000, guid: 78d06bfcbd9c0ea429b85c9ae834b9e9, type: 3}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0.8}
+    rotation: {x: 90, y: 0, z: 0}
+    scale: 1
+    delay: 0.14
+    duration: 0.2
+    count: 1
+    speed: 0
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 0.1
+  - name: Cut sparks
+    enabled: 1
+    shape: 0
+    color: {r: 0.15, g: 1, b: 0.06, a: 1}
+    texture: {fileID: 2800000, guid: 71e089243b1a20e4f96f47badc0e4de2, type: 3}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0.8}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: 1
+    delay: 0.14
+    duration: 0.55
+    count: 65
+    speed: 5
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 0.065

@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67fdee4d5be262744868b31f9748b66a, type: 3}
+  m_Name: Recipe
+  m_EditorClassIdentifier: Assembly-CSharp::VFXForge.ForgeRecipe
+  effectName: Genji Swift Dash
+  duration: 0.9
+  loop: 0
+  size: 1
+  brightness: 2
+  seed: 1729
+  layers:
+  - name: Directed swift streaks
+    enabled: 1
+    shape: 0
+    color: {r: 0.15, g: 1, b: 0.06, a: 1}
+    texture: {fileID: 2800000, guid: 91a9bf530e4378d4287b2ef1c11e0433, type: 3}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 180, z: 0}
+    scale: 1
+    delay: 0
+    duration: 0.45
+    count: 90
+    speed: 18
+    emissionShape: 1
+    spreadAngle: 8
+    radius: 0.3
+    particleSize: 0.07
+  - name: Dash edge
+    enabled: 1
+    shape: 4
+    color: {r: 0.15, g: 1, b: 0.06, a: 1}
+    texture: {fileID: 0}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 90, y: 0, z: 0}
+    scale: 0.8
+    delay: 0
+    duration: 0.22
+    count: 1
+    speed: 0
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 0.1
+  - name: Foot dust
+    enabled: 1
+    shape: 1
+    color: {r: 0.35, g: 0.4, b: 0.3, a: 0.25}
+    texture: {fileID: 2800000, guid: 77ad56dd5d493c9439179b18f899decd, type: 3}
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sourcePrefab: {fileID: 0}
+    replaceSourceMaterials: 0
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: 1
+    delay: 0
+    duration: 0.8
+    count: 18
+    speed: 1.2
+    emissionShape: 0
+    spreadAngle: 15
+    radius: 0.08
+    particleSize: 0.5

@@ -1,0 +1,47 @@
+[
+  {
+    "pitch": -30,
+    "yaw": -20,
+    "leftHandErrorMeters": 5.972094663188382e-08
+  },
+  {
+    "pitch": -30,
+    "yaw": 0,
+    "leftHandErrorMeters": 1.519626234052415e-07
+  },
+  {
+    "pitch": -30,
+    "yaw": 20,
+    "leftHandErrorMeters": 1.4901161193847656e-08
+  },
+  {
+    "pitch": 0,
+    "yaw": -20,
+    "leftHandErrorMeters": 1.666000468656264e-07
+  },
+  {
+    "pitch": 0,
+    "yaw": 0,
+    "leftHandErrorMeters": 1.1920928955078125e-07
+  },
+  {
+    "pitch": 0,
+    "yaw": 20,
+    "leftHandErrorMeters": 1.3514129182113002e-07
+  },
+  {
+    "pitch": 30,
+    "yaw": -20,
+    "leftHandErrorMeters": 4.2146848510894035e-08
+  },
+  {
+    "pitch": 30,
+    "yaw": 0,
+    "leftHandErrorMeters": 1.4057727354849284e-07
+  },
+  {
+    "pitch": 30,
+    "yaw": 20,
+    "leftHandErrorMeters": 1.5359765386647212e-07
+  }
+]

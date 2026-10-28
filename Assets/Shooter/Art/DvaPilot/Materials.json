@@ -1,0 +1,165 @@
+{
+  "materials": [
+    {
+      "material": "DvaFace",
+      "diffuse": "DVa_Body_D.png",
+      "normal": "DVa_Body_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "DvaFace",
+      "diffuse": "DVa_Body_D.png",
+      "normal": "DVa_Body_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "DvaFace",
+      "diffuse": "DVa_Body_D.png",
+      "normal": "DVa_Body_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "22_gloves2_0.2_13_30",
+      "diffuse": "DVa_Body_D.png",
+      "normal": "DVa_Body_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "D.va Hair",
+      "diffuse": "DVa_Hair_D.png",
+      "normal": "DVa_Hair_N.png",
+      "cutout": true,
+      "emission": false
+    },
+    {
+      "material": "Dva_Eyes",
+      "diffuse": "DVa_Eye_D.png",
+      "normal": "",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "25_hair_0.2_0_0",
+      "diffuse": "DVa_Hair_D.png",
+      "normal": "DVa_Hair_N.png",
+      "cutout": true,
+      "emission": false
+    },
+    {
+      "material": "Dva_Body_Emmsion",
+      "diffuse": "DVa_Body_E.png",
+      "normal": "",
+      "cutout": false,
+      "emission": true
+    },
+    {
+      "material": "25_decal_0.2_0_0",
+      "diffuse": "DVa_Decal_D.png",
+      "normal": "DVa_Decal_N.png",
+      "cutout": true,
+      "emission": false
+    },
+    {
+      "material": "Dva bodyTest1",
+      "diffuse": "DVa_Body_D.png",
+      "normal": "DVa_Body_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "27_tearduct_0.2_0_0",
+      "diffuse": "DVa_Tearduct_D.png",
+      "normal": "Gen_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "27_glass_0.5_0_0",
+      "diffuse": "DVa_Glass_D.png",
+      "normal": "DVa_Glass_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "27_glass_0.5_0_0",
+      "diffuse": "DVa_Glass_D.png",
+      "normal": "DVa_Glass_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "22_straps_0.2_13_20",
+      "diffuse": "DVa_Body_D.png",
+      "normal": "DVa_Body_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "22_gloves2_0.2_13_30",
+      "diffuse": "DVa_Body_D.png",
+      "normal": "DVa_Body_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "22_gloves1_0.2_80_20",
+      "diffuse": "DVa_Body_D.png",
+      "normal": "DVa_Body_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "Dva_Armature",
+      "diffuse": "DVa_Body_D.png",
+      "normal": "DVa_Body_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "22_-Pistol.pistol3_0.2_10_8",
+      "diffuse": "DVa_Pistol_D.png",
+      "normal": "DVa_Pistol_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "21_-Pistol.pistolemission_1_0_0",
+      "diffuse": "DVa_Pistol_E.png",
+      "normal": "",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "22_-Pistol.pistol1_0.2_7_10",
+      "diffuse": "DVa_Pistol_D.png",
+      "normal": "DVa_Pistol_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "22_-Pistol.pistol2_0.2_8_75",
+      "diffuse": "DVa_Pistol_D.png",
+      "normal": "DVa_Pistol_N.png",
+      "cutout": false,
+      "emission": false
+    },
+    {
+      "material": "7_-Pistol.decal1_1_0_0",
+      "diffuse": "DVa_PistolDecal1_D.png",
+      "normal": "",
+      "cutout": true,
+      "emission": false
+    },
+    {
+      "material": "7_-Pistol.decal2_1_0_0",
+      "diffuse": "DVa_PistolDecal2_D.png",
+      "normal": "",
+      "cutout": true,
+      "emission": false
+    }
+  ]
+}

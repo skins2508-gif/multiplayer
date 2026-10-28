@@ -1,0 +1,22 @@
+{
+  "VictoryLeft": {
+    "transparent": 456045,
+    "visible": 330387
+  },
+  "VictoryRight": {
+    "transparent": 455324,
+    "visible": 331108
+  },
+  "DefeatLeft": {
+    "transparent": 460585,
+    "visible": 325847
+  },
+  "DefeatRight": {
+    "transparent": 476281,
+    "visible": 310151
+  },
+  "Petal": {
+    "transparent": 2415,
+    "visible": 1681
+  }
+}

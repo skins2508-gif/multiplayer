@@ -1,0 +1,9 @@
+Local host starts: PASS
+New Genji body active on spawned player: PASS
+Runtime humanoid valid: PASS
+Original player body hidden: PASS
+Runtime skin finite and stable: PASS
+Movement input moves player: PASS
+FAIL: System.Exception: Locomotion animates new rig
+  at GenjiPlayVerification.Require (System.Boolean b, System.String message) [0x0001f] in C:\UnitiyProject\multiplayer\Assets\Editor\GenjiPlayVerification.cs:33 
+  at GenjiPlayVerification.Tick () [0x003d5] in C:\UnitiyProject\multiplayer\Assets\Editor\GenjiPlayVerification.cs:99 

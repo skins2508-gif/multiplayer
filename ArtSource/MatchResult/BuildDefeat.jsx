@@ -1,0 +1,30 @@
+app.displayDialogs=DialogModes.NO;
+var base='C:/UnitiyProject/multiplayer/';
+var d=app.open(new File(base+'ArtSource/MatchResult/DefeatSourceV2.png'));
+app.preferences.rulerUnits=Units.PIXELS;
+var w=d.width.as('px'),h=d.height.as('px');
+var original=d.activeLayer; original.name='Original painted botanical frame';
+var left=original.duplicate();d.activeLayer=left;left.name='Branch Left - unfold';
+d.selection.select([[w/2,0],[w,0],[w,h],[w/2,h]]);d.selection.clear();d.selection.deselect();
+var right=original.duplicate();d.activeLayer=right;right.name='Branch Right - unfold';
+d.selection.select([[0,0],[w/2,0],[w/2,h],[0,h]]);d.selection.clear();d.selection.deselect();
+original.visible=false;
+var title=d.artLayers.add();title.kind=LayerKind.TEXT;title.name='Editable result title';
+title.textItem.contents='패배';title.textItem.font='MalgunGothicBold';title.textItem.size=120;title.textItem.position=[w*.40,h*.5];
+var gold=new SolidColor();gold.rgb.hexValue='B8C7FF';title.textItem.color=gold;
+var psd=new PhotoshopSaveOptions();psd.layers=true;d.saveAs(new File(base+'ArtSource/MatchResult/Defeat_Layered.psd'),psd,true);
+title.visible=false;
+function exportHalf(layer,name,x1,x2){
+ left.visible=false;right.visible=false;layer.visible=true;
+ var temp=d.duplicate();temp.crop([x1,0,x2,h]);
+ temp.saveAs(new File(base+'Assets/Resources/MatchResult/'+name+'.png'),new PNGSaveOptions(),true);
+ temp.close(SaveOptions.DONOTSAVECHANGES);app.activeDocument=d;
+}
+exportHalf(left,'DefeatLeft',0,w/2);exportHalf(right,'DefeatRight',w/2,w);
+left.visible=true;right.visible=true;title.visible=true;
+var p=app.documents.add(64,64,72,'Petal',NewDocumentMode.RGB,DocumentFill.TRANSPARENT);
+p.selection.select([[8,34],[16,16],[48,7],[56,28],[43,48],[13,57]]);
+var pink=new SolidColor();pink.rgb.hexValue='F6B8EF';p.selection.fill(pink);p.selection.deselect();
+p.saveAs(new File(base+'Assets/Resources/MatchResult/Petal.png'),new PNGSaveOptions(),true);
+p.close(SaveOptions.DONOTSAVECHANGES);app.activeDocument=d;
+'Saved botanical PSD and animation textures';

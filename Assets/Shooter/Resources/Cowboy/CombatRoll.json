@@ -1,0 +1,47 @@
+{
+  "duration": 0.72,
+  "keys": [
+    {
+      "time": 0,
+      "roll": 0,
+      "tuck": 0,
+      "drop": 0
+    },
+    {
+      "time": 0.08,
+      "roll": 12,
+      "tuck": 0.45,
+      "drop": 0.22
+    },
+    {
+      "time": 0.18,
+      "roll": 60,
+      "tuck": 1,
+      "drop": 0.42
+    },
+    {
+      "time": 0.32,
+      "roll": 160,
+      "tuck": 1,
+      "drop": 0.43
+    },
+    {
+      "time": 0.46,
+      "roll": 265,
+      "tuck": 1,
+      "drop": 0.43
+    },
+    {
+      "time": 0.58,
+      "roll": 345,
+      "tuck": 0.65,
+      "drop": 0.28
+    },
+    {
+      "time": 0.72,
+      "roll": 360,
+      "tuck": 0,
+      "drop": 0
+    }
+  ]
+}

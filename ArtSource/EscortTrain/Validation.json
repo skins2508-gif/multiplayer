@@ -1,0 +1,9 @@
+{
+  "feature": "Shooter FFA and 2v2 escort",
+  "date": "2026-10-13",
+  "implemented": ["Room mode dropdown and public session property", "Relay capacity 4", "Fixed two-player team slots", "Two attack rounds with distance/time comparison", "Contested payload and overtime", "Team spawns and respawns", "Friendly fire prevention via shared hit processor", "Blender train with existing map materials", "Team-only route and geometry changes"],
+  "verified": ["Unity compilation completed without C# errors", "Actual Relay escort room created with shooter-mode=escort and MaxPlayers=4", "Scene match NetworkObject spawned and team layout activated", "Actual Relay FFA room created, team layout hidden, original geometry active", "Score comparison: farther distance, faster completion, draw", "Train rendered in existing scene lighting"],
+  "not_verified": ["Full four-client match", "Late join replication on all four clients", "Complete gameplay round transitions and weapon balance"],
+  "defaults": {"roundSeconds":120,"preparationSeconds":8,"swapSeconds":6,"speedMetersPerSecond":0.75,"escortRadius":3.5,"overtimeGraceSeconds":3,"routeMeters":34},
+  "source": "ArtSource/EscortTrain/EscortTrain.blend"
+}

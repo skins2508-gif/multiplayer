@@ -1,0 +1,23 @@
+Genji movement reference study — 2026-10-22
+
+Gameplay: Genji Ability Overview | Overwatch (PlayOverwatch)
+https://www.youtube.com/watch?v=lYOjIDhJIG0
+Viewed gameplay/weapon sections in browser. Keep upper body and aiming readable during locomotion; do not roll the first-person camera.
+
+Third-person gameplay:
+https://www.youtube.com/shorts/vBvXNRbStxU
+Viewed the third-person gameplay presentation. Derive cadence from actual displacement, including remote players, rather than input alone.
+
+Highlight: Overwatch All Genji Highlight Intros
+https://www.youtube.com/watch?v=0Z3wi6CQVLI
+Viewed 00:10–00:13. The 00:13 frame has a low center, deep leading-knee bend, extended trailing leg, opposing arm silhouette and torso rotation.
+
+Cinematic: Overwatch Animated Short | Dragons (PlayOverwatch)
+https://www.youtube.com/watch?v=oJ09xdxzIJQ
+Viewed 03:07, 03:19 and 03:53. Low asymmetric crouch and braced landing inform knee compression and upper-body stability.
+
+Implementation interpretation (new animation, not extracted Blizzard clips):
+Movement: short, low ninja stride; knee lift, reverse stepping and lateral weight shift; animation phase follows travelled distance.
+Double jump: a 0.58 second visual forward somersault with tucked knees and unfolding recovery, initiated only by a successful air jump. This timing is authored for this project, not measured from the reference videos.
+Landing: brief knee compression and return to movement. Attack/dash arm poses take priority.
+Visual rotation affects the body only, not the collision capsule, aim or camera. Successful second jumps are synchronized to other players with a network timestamp.

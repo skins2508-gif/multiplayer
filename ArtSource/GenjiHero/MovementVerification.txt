@@ -1,0 +1,8 @@
+RunForward: PASS; foot travel=0.658m
+RunBackward: PASS; foot travel=0.867m
+StrafeRight: PASS; foot travel=0.840m
+StrafeLeft: PASS; foot travel=0.601m
+Double jump: finite skin at 0/25/50/75/100 percent; upright recovery: PASS
+Landing compression and idle recovery: PASS
+Successful air jump triggers once; no third jump/retrigger: PASS
+Actor transform unchanged; visual flip isolated from collision/camera: PASS

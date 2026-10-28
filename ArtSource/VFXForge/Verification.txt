@@ -1,0 +1,6 @@
+PASS: Portal Summon | save/reload/materials/time scrub | Assets/VFXForge/Generated/Portal Summon 1/Portal Summon.prefab
+PASS: Explosion | save/reload/materials/time scrub | Assets/VFXForge/Generated/Explosion 1/Explosion.prefab
+PASS: Sword Slash | save/reload/materials/time scrub | Assets/VFXForge/Generated/Sword Slash 1/Sword Slash.prefab
+PASS: Healing Aura | save/reload/materials/time scrub | Assets/VFXForge/Generated/Healing Aura 1/Healing Aura.prefab
+PASS: Dash Burst | save/reload/materials/time scrub | Assets/VFXForge/Generated/Dash Burst 1/Dash Burst.prefab
+PASS: all five presets generated; original source prefabs/materials unchanged.

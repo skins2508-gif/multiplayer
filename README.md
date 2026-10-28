@@ -37,10 +37,17 @@ Unity 설치 없이 실행할 수 있는 Windows 64비트 빌드입니다. 온�
 - `Assets/Blocks`: 멀티플레이 세션 관련 코드
 - `Packages`: 패키지 의존성 정보
 - `ProjectSettings/ProjectVersion.txt`: Unity 버전 정보
+- `Assets`: 게임 씬, 프리팹, 캐릭터 모델, 텍스처·이미지, 머티리얼, 애니메이션, 음원 및 효과 등 게임에 필요한 에셋과 메타파일
+- `ArtSource`: 게임 캐릭터·무기·맵·UI에 사용한 Blender, PSD, 이미지 등 제작 원본
+- `ProjectSettings`: 입력, 렌더링, 플레이어 및 빌드 설정
 
 이 저장소는 멀티플레이어 게임 코드와 Windows 실행용 빌드를 관리합니다. 게임 빌드는 Releases에서 배포합니다.
 
-Code 탭에는 코드와 메타파일, 패키지 및 버전 정보가 있습니다. 게임을 플레이하려면 위 Windows 실행용 ZIP을 받으세요. Unity에서 프로젝트를 편집하거나 다시 빌드하려면 원본 프로젝트의 씬, 프리팹, 모델, 텍스처, 음원 및 나머지 프로젝트 설정도 필요합니다.
+Code 탭에는 게임의 에셋·제작 원본·패키지 목록·프로젝트 설정을 포함합니다. 저장소를 내려받아 Unity Hub에서 Unity 6000.3.20f1로 열고, 패키지 복원과 임포트를 기다린 뒤 `Assets/Shooter/TestScenes/[BB] Shooter MultiplayerSession.unity` 씬을 열어 사용하세요.
+
+시네마틱 관련 에셋·영상·스크립트, 설치 도구와 가상환경, 촬영 중간 프레임 및 백업은 제외했습니다. `Library`, `Temp`, `Logs`, `UserSettings` 등 Unity 생성 파일도 제외하며, 프로젝트를 열면 필요한 캐시는 다시 생성됩니다. 시네마틱 씬은 업로드용 빌드 설정에서 제외했습니다.
+
+게임만 플레이하려면 위 Windows 실행용 ZIP을 받으세요. 실행용 ZIP은 2026-10-27 빌드이며, Code 탭의 후속 소스 변경은 별도로 다시 빌드해야 반영됩니다.
 
 ## 제작 경험
 

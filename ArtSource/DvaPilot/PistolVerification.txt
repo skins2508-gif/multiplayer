@@ -1,0 +1,2 @@
+Muzzle direction dot Unity forward: 1.000000
+Grip is at prefab origin.

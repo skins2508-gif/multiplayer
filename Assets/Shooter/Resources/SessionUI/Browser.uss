@@ -1,0 +1,20 @@
+.nexus-screen { color: rgb(224,239,255); font-size: 22px; }
+.nexus-screen .blocks-modal { background-color: rgba(8,20,34,0.94); border-color: rgb(38,193,241); border-width: 2px; border-radius: 18px; padding: 0; align-items: stretch; }
+.nexus-screen Button { background-color: rgb(28,47,67); background-image: none; color: rgb(224,239,255); border-color: rgb(89,142,188); border-width: 2px; border-radius: 12px; font-size: 24px; -unity-font-style: bold; margin: 0; padding: 8px; }
+.nexus-screen Button:hover { background-color: rgb(33,91,128); border-color: rgb(81,220,255); }
+.nexus-screen Button:disabled { opacity: 0.45; }
+.nexus-screen .nexus-primary { background-color: rgb(8,133,199); border-color: rgb(66,225,255); }
+.nexus-screen Label { color: rgb(215,232,250); }
+.nexus-screen .nexus-title { font-size: 44px; -unity-font-style: bold; -unity-text-align: middle-left; }
+.nexus-screen .nexus-subtitle { font-size: 17px; color: rgb(125,163,197); letter-spacing: 3px; }
+.nexus-screen .unity-base-field { margin: 0; padding: 0; font-size: 22px; }
+.nexus-screen .unity-base-field__input { background-color: rgb(25,42,60); color: rgb(220,237,255); border-color: rgb(86,136,177); border-width: 2px; border-radius: 10px; padding: 8px 16px; }
+.nexus-screen .unity-base-field__label { min-width: 165px; width: 165px; color: rgb(224,239,255); -unity-text-align: middle-left; }
+.nexus-screen .unity-scroll-view { background-color: rgba(9,20,32,0.6); border-color: rgb(46,76,101); border-width: 1px; border-radius: 12px; }
+.nexus-screen .unity-list-view__item { font-size: 22px; }
+.nexus-screen .unity-list-view__item:hover { background-color: rgb(25,65,94); }
+.nexus-screen .unity-list-view__item--selected { background-color: rgb(15,106,156); }
+.nexus-screen .unity-button { background-color: rgb(28,47,67); background-image: none; color: rgb(224,239,255); border-color: rgb(89,142,188); border-width: 2px; border-radius: 12px; font-size: 24px; margin: 0; padding: 8px; }
+.nexus-screen .unity-button.nexus-primary { background-color: rgb(8,133,199); border-color: rgb(66,225,255); }
+.nexus-screen .unity-button:disabled { opacity: 0.45; }
+.nexus-screen .blocks-textfield > .unity-base-field__input { border-width: 2px; background-color: rgb(25,42,60); }

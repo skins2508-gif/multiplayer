@@ -1,0 +1,4 @@
+Player: nonlethal hit stays in mech; lethal hit ejects; pilot survives; no second mech life: PASS
+Player ejection distance: 1.073 metres
+Player: pack body, humanoid avatar, 17 skins, pack pistol active; abandoned mech stays behind: PASS
+AI: lethal hit changes mech to pack pilot and pistol; no death counted: PASS

@@ -1,0 +1,34 @@
+VFX Forge — Unity 통합 VFX 제조기
+실행: Tools > VFX Forge > 통합 VFX 제조기
+
+1. 포털 소환 / 폭발 / 검기 / 치유 오라 / 대시 프리셋을 선택합니다.
+2. layers에서 레이어 활성화, 형태, 색상, 크기, 시간, 파티클 수, 속도를 조절합니다.
+3. 기존 무료 프리팹은 무료 에셋 팔레트에서 + 버튼으로 추가합니다.
+4. Kenney CC0 텍스처 팔레트에서 적용할 레이어를 선택하고 텍스처를 누릅니다.
+5. 머티리얼 또는 셰이더를 레이어에 직접 지정할 수 있습니다.
+6. 미리보기는 드래그로 회전, 휠로 확대/축소, 시간 슬라이더로 확인합니다.
+7. 프리팹 + 레시피 저장: Assets/VFXForge/Generated/이름/ 에 고유 폴더로 저장합니다.
+8. 현재 씬에 배치: 저장 후 Scene View 중심에 배치합니다. Undo를 지원합니다.
+
+재사용: Generated 폴더의 Recipe.asset을 저장된 레시피 슬롯에 넣습니다.
+런타임: 생성된 프리팹을 Instantiate하면 자동 재생됩니다. loop=false면 끝난 뒤 자동 제거합니다.
+미리보기 지원: Unity ParticleSystem + Forge 메시 레이어. VFX Graph 및 원본 스크립트 기반 효과는 별도 확인이 필요합니다.
+
+무료 소스: Kenney Particle Pack 80개 투명 PNG (CC0), 기존 Free Quick Effects 프리팹.
+Kenney 공식 출처: https://kenney.nl/assets/particle-pack
+라이선스: Assets/VFXForge/ThirdParty/Kenney/License.txt
+원본 에셋의 라이선스는 각 에셋에 적용됩니다. 원본 무료 팩 파일을 수정하지 않습니다.
+
+영웅 전용 프리셋 8종
+- Genji Blade Combo: 2연속 검기와 적중 불꽃
+- Dva Self Destruct: 경고 펄스, 폭발 섬광, 2중 충격파, 연기와 파편 불꽃
+- Winston Primal Rage: 푸른 전기, 분노 충격파, 4회 주먹 충격, 먼지
+- Cassidy Rapid Fire: 0.22초 간격 6발, 섬광, 전방 탄도, 옆으로 튀는 탄피 빛
+- Hero Teleport Summon: 바닥 고정, 포털 고리, 내부 소용돌이, 소환 섬광과 충격파
+- Mercy Healing Aura: 주변 금빛 오라와 부유 입자
+- Genji Swift Dash: 후방 속도 궤적, 검기, 발밑 먼지
+- Dva Mech Recall: 착지 표식, 하강 추진 흔적, 착지 충격파와 먼지
+제작 창의 영웅 이름 버튼으로 편집할 수 있습니다.
+일괄 생성: Tools > VFX Forge > 영웅 효과 8종 제작
+생성 결과: Assets/VFXForge/Generated/
+방향: 연사 탄도는 프리팹 로컬 +Z 방향입니다. 총구에 자식으로 붙여 사용합니다.
